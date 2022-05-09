@@ -27,4 +27,21 @@
     <string name="starbucks">Starbucks</string>
     <string name="krispy_kreme">Krispy Kreme</string>
     <string name="info_user">Nombre completo del usuario</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btn_atras">btn_atras</string>
+    <string name="cuarto_libra">Cuarto de libra con queso</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="opciones">Opciones</string>
+    <string name="notas_especiales">Notas especiales</string>
+    <string name="ordenar">Ordenar</string>
+    <string name="orden_exitosa">Orden exitosa</string>
+    <string name="aceptar">Aceptar</string>
+    <string-array name="cantidad">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
 </resources>

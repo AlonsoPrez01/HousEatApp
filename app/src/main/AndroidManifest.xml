@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HousEatApp">
         <activity
+            android:name=".OrdenExitosa"
+            android:exported="false" />
+        <activity
+            android:name=".Ordenar"
+            android:exported="false" />
+        <activity
+            android:name=".MenuRestaurante"
+            android:exported="false" />
+        <activity
             android:name=".Dashboard"
             android:exported="false" />
         <activity
