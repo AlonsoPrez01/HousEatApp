@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecuperarContra">
+
+    <ImageButton
+        android:id="@+id/btn_cancelar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/transparent"
+        android:contentDescription="@string/cancelar"
+        android:onClick="Cancelar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_outline_cancel_24" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txt_correo_asociado_lay"
+        android:layout_width="350dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="340dp"
+        android:hint="@string/correo_asociado"
+        android:textColorHint="@color/secondaryTextColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txt_correo_asociado"
+            android:layout_width="349dp"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:textSize="18sp"
+            android:paddingStart="15dp"
+            android:paddingEnd="10dp"
+            android:autofillHints="emailAddress"
+            android:backgroundTint="@color/transparent"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_recuperar_contra"
+        android:layout_width="335dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="160dp"
+        android:text="@string/btn_recuperar"
+        android:textSize="16sp"
+        android:textColor="@color/secondaryTextColor"
+        android:backgroundTint="@color/secondaryColor"
+        android:onClick="btnRecuperar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_correo_asociado_lay" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".BuscarFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/buscar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/buscar"
+            android:textSize="36sp"
+            android:textColor="@color/secondaryTextColor"
+            android:textStyle="bold"
+            android:paddingStart="45dp"
+            android:paddingEnd="10dp"
+            android:paddingTop="45dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/txtPassword_lay"
+            android:layout_width="335dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="30dp"
+            android:hint="@string/buscar"
+            android:textColorHint="@color/secondaryTextColor"
+            android:layout_gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtCorreo_lay"
+            app:endIconMode="custom"
+            app:endIconDrawable="@drawable/ic_baseline_search_24_b"
+            app:endIconContentDescription="@string/buscar"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtPassword"
+                android:layout_width="335dp"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:inputType="text"
+                android:textSize="18sp"
+                android:paddingStart="15dp"
+                android:paddingEnd="10dp"
+                android:backgroundTint="@color/transparent"
+                android:autofillHints="name" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

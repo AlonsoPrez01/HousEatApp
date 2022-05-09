@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registrarse">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txt_nombre_lay"
+        android:layout_width="140dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="120dp"
+        android:hint="@string/nombre"
+        android:textColorHint="@color/secondaryTextColor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txt_nombre"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingStart="15dp"
+            android:paddingEnd="10dp"
+            android:textSize="18sp"
+            android:backgroundTint="@color/transparent"
+            android:autofillHints="name" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txt_apellido_lay"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="20dp"
+        android:hint="@string/apellido"
+        android:textColorHint="@color/secondaryTextColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txt_apellido"
+            android:layout_width="220dp"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="18sp"
+            android:paddingStart="15dp"
+            android:paddingEnd="10dp"
+            android:backgroundTint="@color/transparent"
+            android:autofillHints="name" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txt_telefono_lay"
+        android:layout_width="370dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/tel"
+        android:textColorHint="@color/secondaryTextColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_nombre_lay"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txt_telefono"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="phone"
+            android:textSize="18sp"
+            android:paddingStart="15dp"
+            android:paddingEnd="10dp"
+            android:backgroundTint="@color/transparent"
+            android:autofillHints="phone"
+             />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txt_direccion_lay"
+        android:layout_width="370dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/direccion"
+        android:textColorHint="@color/secondaryTextColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_telefono_lay"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txt_direccion"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="textPostalAddress"
+            android:textSize="18sp"
+            android:paddingStart="15dp"
+            android:paddingEnd="10dp"
+            android:backgroundTint="@color/transparent"
+            android:autofillHints="postalAddress" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txt_registrar_correo_lay"
+        android:layout_width="370dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/correo_electronico"
+        android:textColorHint="@color/secondaryTextColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_direccion_lay"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txt_registrar_correo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="18sp"
+            android:paddingStart="15dp"
+            android:paddingEnd="10dp"
+            android:backgroundTint="@color/transparent"
+            android:autofillHints="emailAddress" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txt_registrar_contra_lay"
+        android:layout_width="370dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/contrasennia"
+        android:textColorHint="@color/secondaryTextColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_registrar_correo_lay"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox" >
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txt_registrar_contra"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textSize="18sp"
+            android:paddingStart="15dp"
+            android:paddingEnd="10dp"
+            android:backgroundTint="@color/transparent"
+            android:autofillHints="password" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txt_confirmar_contra_lay"
+        android:layout_width="370dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/confirmar_contra"
+        android:textColorHint="@color/secondaryTextColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_registrar_contra_lay"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txt_confirmar_contra"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textSize="18sp"
+            android:paddingStart="15dp"
+            android:paddingEnd="10dp"
+            android:backgroundTint="@color/transparent"
+            android:autofillHints="password" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_registrar"
+        android:layout_width="335dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/registrar"
+        android:textSize="16sp"
+        android:textColor="@color/secondaryTextColor"
+        android:backgroundTint="@color/secondaryColor"
+        android:onClick="btnRegistrar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_confirmar_contra_lay" />
+</androidx.constraintlayout.widget.ConstraintLayout>
