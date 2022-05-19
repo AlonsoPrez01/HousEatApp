@@ -8,6 +8,6 @@
         android:title="@string/cerrar_sesion"
         android:contentDescription="@string/cerrar_sesion"
         android:onClick="cerrarSesion"
-        app:showAsAction="always" />
+        app:showAsAction="ifRoom" />
 
 </menu>

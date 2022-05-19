@@ -37,6 +37,7 @@
     <string name="orden_exitosa">Orden exitosa</string>
     <string name="aceptar">Aceptar</string>
     <string name="cerrar_sesion">Cerrar sesión</string>
+    <string name="mapa">Mapa</string>
     <string-array name="cantidad">
         <item>1</item>
         <item>2</item>
@@ -45,4 +46,5 @@
         <item>5</item>
         <item>6</item>
     </string-array>
+    <string name="title_activity_maps">MapsActivity</string>
 </resources>

@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HousEatApp">
+
         <activity
             android:name=".OrdenExitosa"
             android:exported="false" />

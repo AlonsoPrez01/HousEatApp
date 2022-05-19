@@ -32,6 +32,7 @@
             app:srcCompat="@drawable/icono_usuario" />
 
         <TextView
+            android:id="@+id/nombre_usuario"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/info_user"
@@ -43,6 +44,7 @@
             android:textAlignment="center"  />
 
         <TextView
+            android:id="@+id/telefono_usuario"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/tel"
@@ -52,6 +54,7 @@
             android:textAlignment="center" />
 
         <TextView
+            android:id="@+id/correo_usuario"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/correo_electronico"
@@ -61,6 +64,7 @@
             android:textAlignment="center"  />
 
         <TextView
+            android:id="@+id/direccion_usuario"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/direccion"
