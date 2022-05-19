@@ -6,17 +6,30 @@
     android:layout_height="match_parent"
     tools:context=".RecuperarContra">
 
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/topAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:paddingStart="20dp"
+        android:paddingEnd="10dp"
+        android:elevation="4dp"
+        app:title="@string/activity_recuperarContra"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Widget.MaterialComponents.Toolbar.Primary" />
+
     <ImageButton
         android:id="@+id/btn_cancelar"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
         android:background="@color/transparent"
         android:contentDescription="@string/cancelar"
         android:onClick="Cancelar"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topAppBar"
         app:srcCompat="@drawable/ic_outline_cancel_24" />
 
     <com.google.android.material.textfield.TextInputLayout

@@ -36,6 +36,7 @@
     <string name="ordenar">Ordenar</string>
     <string name="orden_exitosa">Orden exitosa</string>
     <string name="aceptar">Aceptar</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
     <string-array name="cantidad">
         <item>1</item>
         <item>2</item>

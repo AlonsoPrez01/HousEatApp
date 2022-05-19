@@ -9,7 +9,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:paddingTop="50dp">
 
         <TextView
             android:layout_width="match_parent"
@@ -18,15 +19,16 @@
             android:textSize="36sp"
             android:textColor="@color/secondaryTextColor"
             android:textStyle="bold"
-            android:paddingTop="35dp"
+            android:paddingTop="30dp"
             android:paddingStart="45dp"
             android:paddingEnd="10dp"   />
 
         <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
             android:layout_gravity="center"
             android:contentDescription="@string/perfil"
+            android:layout_marginTop="20dp"
             app:srcCompat="@drawable/icono_usuario" />
 
         <TextView

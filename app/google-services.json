@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "636652911605",
+    "project_id": "houseat-app",
+    "storage_bucket": "houseat-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:636652911605:android:8cb9d119ce229c18413ebc",
+        "android_client_info": {
+          "package_name": "com.tarea.houseatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "636652911605-ntga5jbu0t159nulmn9ro4g97r12gp5t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSJCQJzVCZWcJk9J0517yZlF7t5or0rdk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "636652911605-ntga5jbu0t159nulmn9ro4g97r12gp5t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

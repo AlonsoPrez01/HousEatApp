@@ -6,6 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".Registrarse">
 
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/topAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:paddingStart="20dp"
+        android:paddingEnd="10dp"
+        android:elevation="4dp"
+        app:title="@string/activity_registrarse"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Widget.MaterialComponents.Toolbar.Primary" />
+
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/txt_nombre_lay"
         android:layout_width="140dp"
